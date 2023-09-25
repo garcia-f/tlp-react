@@ -1,0 +1,12 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body > #root {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+}
